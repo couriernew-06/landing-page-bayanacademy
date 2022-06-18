@@ -1,1 +1,1 @@
-# landing-page-bayanacademy-
+# landing-page-bayanacademy
