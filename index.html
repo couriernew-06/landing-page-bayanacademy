@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div>
+        <header class="header-container">
+            <div class="header-top">
+                <!--Bayan Academy Logo-->
+                <img class="logo" src="images/bayan_logo2.png" alt="Bayan Academy Logo">
+            </div>
+            <div class="header-mid">
+                <div class="system-links">
+                    <img src="images/project_management.png"><div>Performance Monitoring System</div>
+                    <img src="images/knowledge_icon.png"><div>Knowledge Resource Center</div>
+                </div>
+                <div class="search-social">
+                    <div class="search-bar-cont">
+                        <input class="search-bar" type="text" placeholder="Search..">
+                        <button class="search-bar" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="social-media-icons">
+                        <!--Social media icons-->
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">OTHERS</a></li>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="main-banner">
+                <img src="images/banners/homebannerv21424x693.png">
+            </div>
+            <div class="grid-images">
+                <div class="space-left"></div>
+                <div class="img1" data-aos="fade-down-right"><img src="images/banners/COPYhiring_1.jpg"></div>
+                <div class="img2" data-aos="fade-down"><img src="images/banners/COPYdonation_drive_slider_4.jpg"></div>
+                <div class="img3" data-aos="fade-down-left"><img src="images/banners/COPYsulong_trabaho_slider.jpg"></div>
+                <div class="img4" data-aos="fade-right"><img src="images/banners/COPYeskwela_3.jpg"></div>
+                <div class="more" data-aos="zoom-out"></div>
+                <div class="img5" data-aos="fade-left"><img src="images/banners/COPYf3.jpg"></div>
+                <div class="img6" data-aos="fade-up-right"><img src="images/banners/COPYbd029_govtech.png"></div>
+                <div class="img7" data-aos="fade-up"><img src="images/banners/COPYnegosyo_3.jpg"></div>
+                <div class="img8" data-aos="fade-up-left"><img src="images/banners/COPYeam_poster-banner1.jpg"></div>
+                <div class="space-right"></div>
+            </div>
+        </section>
+        <section class="about">
+            <h1>What is Bayan Academy?</h1>
+            <p>Bayan Academy for Social Entrepreneurship and Human Resource Development (BASE-HRD or Bayan Academy) is a social development organization that offers entrepreneurship, management and education training programs and services, as well as livelihood and skills training courses for development institutions, cooperatives, banks, educational institutions and micro and small enterprises.</p>
+            <button>MORE ABOUT US</button>
+        </section>
+        <section class="dev-programs">
+            <h2> Development Programs </h2>
+            <div class="dev-programs-container">
+                <div class="prog-left"></div>
+                <div class="prog-space"></div>
+                <div class="prog">
+                    <div class="prog1-top">
+                        <h5> BEST </h5>
+                        <div class="prog-img">
+                        <img src="images/devprogram/best1.png">
+                        </div>
+                        <p>Bayan Educational Systems and Technologies</p>
+                    </div>
+                    <input id="prog-button1" type="button" value="READ MORE">
+                </div>
+                <div class="prog">
+                    <div class="prog2-top">
+                        <h5> CREST </h5>
+                        <div class="prog-img">
+                        <img src="images/devprogram/crest.png">
+                        </div>
+                        <p>Consultancy and Research Technologies</p>
+                    </div>
+                    <input id="prog-button2" type="button" value="READ MORE">
+                </div>
+                <div class="prog">
+                    <div class="prog3-top">
+                        <h5> TOP </h5>
+                        <div class="prog-img">
+                        <img src="images/devprogram/top.png">
+                        </div>
+                        <p>Training of Professionals</p>
+                    </div>
+                    <input id="prog-button3" type="button" value="READ MORE">
+                </div>
+                <div class="prog">
+                    <div class="prog4-top">
+                        <h5> GREAT </h5>
+                        <div class="prog-img">
+                        <img src="images/devprogram/great.png">
+                        </div>
+                        <p>Grassroots Entrepreneurship and Technologies</p>
+                    </div>
+                    <input id="prog-button4" type="button" value="READ MORE">
+                </div>
+                <div class="prog">
+                    <div class="prog5-top">
+                        <h5> AEW </h5>
+                        <div class="prog-img">
+                        <img src="images/devprogram/apex_icon.png">
+                        </div>
+                        <p>Awards, Expositions and Webinars</p>
+                    </div>
+                    <input id="prog-button5" type="button" value="READ MORE">
+                </div>
+                <div class="prog-right"></div>
+            </div>
+        </section>
+        <section class="events">
+            <h2> Events </h2>
+            <div class="events-container">
+                <div class="events-mini-tab">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openTab(event, 'all')" id="defaultOpen">ALL</button>
+                        <button class="tablinks" onclick="openTab(event, 'bayan')">BAYAN</button>
+                        <button class="tablinks" onclick="openTab(event, 'best')">BEST</button>
+                        <button class="tablinks" onclick="openTab(event, 'crest')">CREST</button>
+                        <button class="tablinks" onclick="openTab(event, 'top')">TOP</button>
+                        <button class="tablinks" onclick="openTab(event, 'great')">GREAT</button>
+                        <button class="tablinks" onclick="openTab(event, 'aew')">AEW</button>
+                    </div>
+    
+                    <div id="all" class="tabcontent" style="display:block">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/bayan\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">GovTech: Co-Designing Solutions With The Government</h3>
+                                    <h6 class="time-date">May 11, 2020. 02:00 PM - 03:30 PM</h6>
+                                    <h6 class="event-place">Zoom Webinar</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/best\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Introductory Meeting - Junior and Senior High School Teachers</h3>
+                                    <h6 class="time-date">Oct 30, 2019 - 01:00 PM - 05:00 PM</h6>
+                                    <h6 class="event-place">Ateneo Graduate School of Business</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/top\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Revalida 3 - RAMCAR Battery Group Cadet Engineering Program (Module 3: Leadership and Strategic Management Skills)</h3>
+                                    <h6 class="time-date">Nov 29, 2019 . 08:00 AM - 05:00 PM</h6>
+                                    <h6 class="event-place">RAMCAR Center, 80 Don A. Roces Ave, Diliman, Quezon City</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="bayan" class="tabcontent">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/bayan\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">GovTech: Co-Designing Solutions With The Government</h3>
+                                    <h6 class="time-date">May 11, 2020 02:00 PM - 03:30 PM</h6>
+                                    <h6 class="event-place">Zoom Webinar</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/bayan\ 2.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Guiding Social Enterprises Through The Pandemic Economy</h3>
+                                    <h6 class="time-date">May 06, 2020 02:00 PM - 03:30 PM</h6>
+                                    <h6 class="event-place">Zoom Webinar</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/bayan\ 3.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Community Building in a Time of Social Distancing</h3>
+                                    <h6 class="time-date">May 04, 2020· 02:00 PM - 03:30 PM</h6>
+                                    <h6 class="event-place">Zoom Webinar</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="best" class="tabcontent">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/best\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Introductory Meeting - Junior and Senior High School Teachers</h3>
+                                    <h6 class="time-date">Oct 30, 2019 01:00 PM - 05:00 PM</h6>
+                                    <h6 class="event-place">Ateneo Graduate School of Business</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/best\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Master in Entrepreneurship for Social Enterprise Development Batch 3 Application</h3>
+                                    <h6 class="time-date">Sep 23, 2019 · 08:00 AM - 07:00 PM</h6>
+                                    <h6 class="event-place">Ateneo Graduate School of Business</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/top\ 4.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Launching of Knowledge Resource Center and Website</h3>
+                                    <h6 class="time-date">Sep 25, 2018· 02:00 PM - 04:00 PM</h6>
+                                    <h6 class="event-place">Bayan Edge Office, 2F Calderon Bldg, 827 EDSA, Brgy. South Triangle, Quezon City</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="crest" class="tabcontent">
+                        <div class="tab-container">
+                            There are no upcoming event at this time for CREST.
+                        </div>
+                    </div>
+    
+                    <div id="top" class="tabcontent">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/top\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Revalida 3 - RAMCAR Battery Group Cadet Engineering Program (Module 3: Leadership and Strategic Management Skills)</h3>
+                                    <h6 class="time-date">Nov 29, 2019 08:00 AM - 05:00 PM</h6>
+                                    <h6 class="event-place">RAMCAR Center, 80 Don A. Roces Ave, Diliman, Quezon City</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/top\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Class Lecture 2 - RAMCAR Battery Group Cadet Engineering Program</h3>
+                                    <h6 class="time-date">Nov 18, 2019 - 08:00 AM - 05:00 PM</h6>
+                                    <h6 class="event-place">RAMCAR Center, 80 Don A. Roces Ave, Diliman, Quezon City</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/top\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Class Lecture 1- RAMCAR Battery Group Cadet Engineering Program</h3>
+                                    <h6 class="time-date">Nov 13, 2019 08:00 AM - 05:00 PM</h6>
+                                    <h6 class="event-place">RAMCAR Center, 80 Don A. Roces Ave, Diliman, Quezon City</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="great" class="tabcontent">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/great\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Basic Programming Using Python Part 2 (Batch 2)</h3>
+                                    <h6 class="time-date">Jun 01, 2020 - 09:00 AM - 01:00 PM</h6>
+                                    <h6 class="event-place">Online Training</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/great\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Basic Programming Using Python Part 1 (Batch 2)</h3>
+                                    <h6 class="time-date">May 25, 2020- 09:00 AM - 06:00 PM </h6>
+                                    <h6 class="event-place">Online Training</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/great\ 2.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Contact Center Services Course Part 2</h3>
+                                    <h6 class="time-date">May 25, 2020• 01:00 PM - 06:00 PM</h6>
+                                    <h6 class="event-place">Online Training</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="aew" class="tabcontent">
+                        <div class="tab-container">
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/aew\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Pinoy Tsuper Hero Year 4 Phase 2 Grand Finals Awarding Ceremony</h3>
+                                    <h6 class="time-date">Nov 21, 2019 08:00 AM - 05:00 PM</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/aew\ 2.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">6th Excellence in Educational Transformation Awards Awarding Ceremonies</h3>
+                                    <h6 class="time-date">Nov 19, 2019 - 08:00 AM -05:00 PM</h6>
+                                </div>
+                            </div>
+                            <div class="articles">
+                                <div class="article-img" style="background-image: url(images/events/aew\ 1.JPG);
+                                width: 200px;
+                                height: 100px;
+                                background-size: cover;
+                                margin: 20px;">
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-title">Pinoy Tsuper Hero Year 4 Phase 3 Training</h3>
+                                    <h6 class="time-date">Nov 18, 2019- 08:00 AM - 05:00 PM</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm-promotion">
+                    <div class="fb">
+                        <img src="images/facebook1.png"> For more updates,
+                        Like and follow us on Facebook
+                    </div>
+                    <div class="ig">
+                        <img src="images/instagram.png"> Follow us on Instagram and don’t forget to use the hashtag <strong>#BayanAcademy2022</strong>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="latest-news">
+            <h2> Latest News </h2>
+            <div class="latest-news-container">
+                <div class="news-card">
+                    <div class="news-banner1"></div>
+                    <div class="news-headline">
+                        <h3 class="news-title">Bayan Academy, together with the support of JP...</h3>
+                        <h6 class="news-date">POSTED ON DEC 20, 2020</h6>
+                        <h5 class="news-overview">The pandemic has changed a lot of things and fast tracked the digitalization of businesses and boosted the digital economy. Thus, today’s workforce must be rea...<i style="color: blue; cursor: pointer;">Read more</i></h5>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-banner2"></div>
+                    <div class="news-headline">
+                        <h3 class="news-title">Bayan Academy, J.P. Morgan repurpose and...</h3>
+                        <h6 class="news-date">POSTED ON NOV 25, 2020</h6>
+                        <h5 class="news-overview">It was a “life changing decision,” says 37-year-old Eva Martinez from Valenzuela City, when she underwent Bayan Academy’s Contact Center Service tr...<i style="color: blue; cursor: pointer;">Read more</i></h5>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-banner3"></div>
+                    <div class="news-headline">
+                        <h3 class="news-title">Repurposing Skills in the Time of Pandemic...</h3>
+                        <h6 class="news-date">POSTED ON JUL 02, 2020</h6>
+                        <h5 class="news-overview">The health pandemic has affected the lives of millions of workers worldwide, its impact far reaching and devastating to a multitude of industries. Once lucrative ent...<i style="color: blue; cursor: pointer;">Read more</i></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-button">
+                <div class="view-all">
+                    <button>VIEW ALL NEWS</button>
+                </div>
+            </div>
+        </section>
+        <section class="trusted-partners">
+            <h2>Trusted Partners</h2>
+            <div class="partners">
+                <img src="images/partners/tp1.PNG">
+                <img src="images/partners/tp2.PNG">
+                <img src="images/partners/tp3.PNG">
+                <img src="images/partners/tp4.PNG">
+                <img src="images/partners/tp5.PNG">
+                <img src="images/partners/tp6.PNG">
+                <img src="images/partners/tp7.PNG">
+                <img src="images/partners/tp8.PNG">
+                <img src="images/partners/tp9.PNG">
+                <img src="images/partners/tp10.PNG">
+                <img src="images/partners/tp11.PNG">
+                <img src="images/partners/tp12.PNG">
+                <img src="images/partners/tp13.PNG">
+                <img src="images/partners/tp14.PNG">
+                <img src="images/partners/tp15.PNG">
+                <img src="images/partners/tp16.PNG">
+                <img src="images/partners/tp17.PNG">
+                <img src="images/partners/tp18.PNG">
+                <img src="images/partners/tp19.PNG">
+                <img src="images/partners/tp20.PNG">
+                <img src="images/partners/tp21.PNG">
+                <img src="images/partners/tp22.PNG">
+                <img src="images/partners/tp23.PNG">
+                <img src="images/partners/tp24.PNG">
+                <img src="images/partners/tp25.PNG">
+                <img src="images/partners/tp26.PNG">
+                <img src="images/partners/tp27.PNG">
+                <img src="images/partners/tp28.PNG">
+                <img src="images/partners/tp29.PNG">
+                <img src="images/partners/tp30.PNG">
+                <img src="images/partners/tp31.PNG">
+                <img src="images/partners/tp32.PNG">
+                <img src="images/partners/tp33.PNG">
+                <img src="images/partners/tp34.PNG">
+                <img src="images/partners/tp35.PNG">
+                <img src="images/partners/tp36.PNG">
+                <img src="images/partners/tp37.PNG">
+                <img src="images/partners/tp38.PNG">
+                <img src="images/partners/tp39.PNG">
+                <img src="images/partners/tp40.PNG">
+                <img src="images/partners/tp41.PNG">
+            </div>
+        </section>
+    </div>
+</body>
+<footer class="footer-distributed">
+    <div class="footer-left">
+
+        <h3><img src="images/bayan_logo2.png"></h3>
+
+        <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+            
+            <a href="#">About</a>
+        
+            <a href="#">Institutional
+                Achievements</a>
+        
+            <a href="#">News & Events</a>
+            
+            <a href="#">Contact Us</a>
+        </p>
+
+        <p class="footer-company-name">Company Name © 2015</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>2nd Floor Cinderella Building 825 EDSA</span> Quezon City, Philippines</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+63.2.426.3140</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:info@bayanacademy.edu.ph">info@bayanacademy.edu.ph</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <li>BAYAN</li>
+            <li>BEST</li>
+            <li>CREST</li>
+            <li>TOP</li>
+            <li>GREAT</li>
+            <li>AEW</li>
+        </p>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 130,
+      duration: 800
+    });
+
+</script>
+</html>
